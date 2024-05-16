@@ -183,7 +183,7 @@ class MainActivity : ComponentActivity() {
                                     .setPageLimit(pageLimit)
                                     .setResultFormats(
                                         GmsDocumentScannerOptions.RESULT_FORMAT_JPEG,
-                                        GmsDocumentScannerOptions.RESULT_FORMAT_PDF
+                                        GmsDocumentScannerOptions.RESULT_FORMAT_PDF,
                                     )
                                     .setScannerMode(scannerMode)
                                     .build()
